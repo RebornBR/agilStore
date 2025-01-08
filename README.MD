@@ -1,7 +1,14 @@
 <div align = "center">
 <h1> Documentação API AgilStore </h1>
 <li>URL PREFIXO : <code>localhost:8080/agilStore/produto</code>
+ <h3 align="center">Tecnologias utilizadas:</h3>
+
+<div align="center"> 
+<img src="https://img.shields.io/badge/Java-000000?style=for-the-badge&logo=openjdk&logoColor=white">
+<img src="https://img.shields.io/badge/SpringBoot-000000?style=for-the-badge&logo=Spring&logoColor=white">
+<img src="https://img.shields.io/badge/H2 DataBase-000000?style=for-the-badge&logo=H2&logoColor=white">  
 <br><br>
+</div>
 
 <h1>ProdutoRequestDTO</h1> 
 Objeto solicitado para criaçao de um produto
@@ -57,20 +64,20 @@ Representa os dados retornados em todos os endpoints de GET
 
 
 <br><br>
-<div align = "center">
 <h1>EndPoints</h1>
 
 <h2>Gerar Json</h2>
 </div>
 <ul>
-<li> <b>Descrição: Método responsável por criar um arquivo(produtos.json) json de todos os produtos que estão no banco de dados no banco de dados</b>
+<li> <b>Descrição: Método responsável por criar um arquivo(produtos.json) de todos os produtos que estão no banco de dados</b>
 <li> URL: <code>agilStore/produto/gerarJson</code>
 <li> Metódo: <code>GET</code> 
+<li> Biblioteca utilizada: GSON
 <li> Retorno: <code>void</code>
 </ul>
 
 <br><br>
-
+<div align = "center">
 <h2>Adicionar Produto</h2>
 </div>
 <ul>
